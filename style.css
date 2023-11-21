@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+body{
+   margin: 0;
+   background-image: url(https://marketplace.canva.com/EAFYIWPCudg/1/0/1600w/canva-papel-de-parede-para-computador-astronauta-gal%C3%A1xia-preto-e-branco-lKp1cXK1ybY.jpg);
+   font-family: sans-serif;
+   color: #000000;
+}
+
+.container{
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 900px;
+}
+
+.carrossel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 30s infinite forwards linear; 
+}
+
+.imagem{
+    position: absolute;
+    width: 290px;
+    height: 187px;
+    top: 40px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    display: flex;
+}
+
+.imagem span{
+    margin: auto;
+    font-size: 1.2em;
+    text-align: center;
+    background: #e0d7e062;
+}
+
+@keyframes rotate360 {
+
+    from{
+        transform: rotateY(0deg);
+    }
+
+    to{
+        transform: rotateY(360deg);
+    }
+   
+}
+
+.imagem:nth-child(1){
+    background-image: url(https://images6.alphacoders.com/125/1255557.jpg);
+    transform: rotateY(0deg) translateZ(430px);
+}
+
+    .imagem:nth-child(2){
+        background-image: url(https://m.media-amazon.com/images/I/6169WBqSqcL._AC_UF1000,1000_QL80_.jpg );
+        transform: rotateY(40deg) translateZ(430px);
+    }
+
+    .imagem:nth-child(3){
+        background-image: url(https://i.pinimg.com/originals/12/3b/a6/123ba688787ea49fd81205e091cced8e.png);
+        transform: rotateY(80deg) translateZ(430px);
+
+    }
+
+  .imagem:nth-child(4){
+    background-image: url(https://tierragamer.com/wp-content/uploads/2022/11/Hunter-x-Hunter.jpg);
+    transform: rotateY(120deg) translateZ(430px);
+    
+  }
+
+  .imagem:nth-child(5){
+    background-image: url(https://cdn.ome.lt/Q2TxWABQ1XsFnGcBOEW69i1NU3c=/1200x630/smart/extras/conteudos/Code_Geass.jpg);
+    transform: rotateY(160deg) translateZ(430px);
+
+  }
+
+  .imagem:nth-child(6){
+    background-image: url(https://t.ctcdn.com.br/l0XQb4QGMf3DLlTdiuCbb9ZdW7A=/1920x1080/smart/i527855.jpeg);
+    transform: rotateY(200deg) translateZ(430px);
+
+  }
+
+  .imagem:nth-child(7){
+    background-image: url(https://naruto-official.com/common/ogp/NTOS_OG-main.png);
+    transform: rotateY(240deg) translateZ(430px);
+
+  }
+
+  .imagem:nth-child(8){
+    background-image: url(https://c.wallhere.com/photos/16/08/1772x900_px_anime_Gintama_Gintoki_Katsura_Kotarou_Male_Sakamoto-1719293.jpg!d);
+
+    transform: rotateY(280deg) translateZ(430px);
+
+  }
+
+  .imagem:nth-child(9){
+    background-image: url(https://files.tecnoblog.net/wp-content/uploads/2021/08/castlevania-alucard-1060x618.png);
+    transform: rotateY(320deg) translateZ(430px);
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
